@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 
 
 function Project() {
-    const [projects] = [
+    const projects = [
         {
             name: 'Run Buddy',
             languages: 'HTML CSS',
+            appLink:'',
+            repoLink:''
         },
         {
             name: 'Tempo Run',
@@ -28,17 +30,21 @@ function Project() {
             languages: 'Node',
         }
     ];
-
+    let projectImages = projects.map((project) => 
+    <img src={require(`../assets/images/${project.name}.png`)} alt={project.name}/>
+    )
     return (
         <div>
-            {projects.map((image) => (
-                    <img
-                        src={require(`../../assets/small/${name}.jpg`)}
-                        alt={image.name}
-                        className="img-thumbnail mx-1"
-                     
-                    />
-                ))}
+            {projectImages}
+
+            {/* {projects.map((project) =>
+                <img
+                    src={require(`../assets/images/${project.name}.png`)}
+                    alt={project.name}
+                    className="img-thumbnail mx-1"
+                key={project.name}
+                />
+            )} */}
         </div>
     )
 };
