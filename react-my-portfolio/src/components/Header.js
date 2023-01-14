@@ -1,17 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Nav from './Nav';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 function Header() {
+    const [currentPage, setCurrentPage] = useState('About');
+
+    const renderPage = () => {
+
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        return <About />;
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
 
         <Container>
             <Row className='justify-content-between'>
                 <Col md={2}>
-                    <h2>amaragh</h2>
+                    <h2><a href="/">amaragh</a></h2>
                 </Col>
-                <Col>
-                    <Nav />
+                <Col>    
+                    <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+                    {renderPage()}
                 </Col>
             </Row>
         </Container>
