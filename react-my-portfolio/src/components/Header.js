@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Nav from './Nav';
+import Navigation from './Navigation';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -33,10 +33,10 @@ function Header() {
         <Container>
             <Row className='justify-content-between'>
                 <Col md={2}>
-                    <h2><a href="/">amaragh</a></h2>
+                    <h2><a href="/">Amaragh</a></h2>
                 </Col>
                 <Col>    
-                    <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+                    <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                     {renderPage()}
                 </Col>
             </Row>
