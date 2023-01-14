@@ -1,21 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './index.css';
-import Header from './components/Header'
-import About from './components/About'
+import HeaderMain from './components/HeaderMain'
 import Footer from './components/Footer'
-import Contact from './components/Contact';
-
 
 function App() {
   return (
     <div>
-      <Header/>
-      <main>
-        <About />
-        <Contact/>
-      </main>
+      <HeaderMain/>
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import Navigation from '../Navigation';
+import Nav from './Nav';
 
 function Header() {
     return (
@@ -11,7 +11,7 @@ function Header() {
                     <h2>amaragh</h2>
                 </Col>
                 <Col>
-                    <Navigation />
+                    <Nav />
                 </Col>
             </Row>
         </Container>
