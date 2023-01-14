@@ -5,6 +5,7 @@ import './index.css';
 import Header from './components/Header'
 import About from './components/About'
 import Footer from './components/Footer'
+import Contact from './components/Contact';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <main>
         <About />
+        <Contact/>
       </main>
       <Footer />
     </div>
