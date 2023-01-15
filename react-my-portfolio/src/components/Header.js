@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 import Navigation from './Navigation';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -29,18 +28,21 @@ function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-
-        <Container>
-            <Row className='justify-content-between'>
-                <Col md={2}>
-                    <h2><a href="/">Amaragh</a></h2>
-                </Col>
-                <Col>    
+        <div className='container'>
+            <div className='row justify-content-between'>
+                <div className='col-md-3'>
+                    <h2>
+                        <a href="/">Amaragh</a>
+                    </h2>
+                </div>
+                <div className='col-md-9' >
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-                    {renderPage()}
-                </Col>
-            </Row>
-        </Container>
+                </div>
+            </div>
+            <div className='row'>
+                {renderPage()}
+            </div>
+        </div>
     )
 }
 

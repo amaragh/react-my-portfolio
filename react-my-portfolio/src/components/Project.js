@@ -1,50 +1,55 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 function Project() {
     const projects = [
         {
-            name: 'Run Buddy',
-            languages: 'HTML CSS',
-            appLink:'',
-            repoLink:''
+            name: 'Farmers Market',
+            languages: 'Node',
         },
         {
             name: 'Tempo Run',
             languages: 'HTML CSS',
         },
         {
-            name: 'Farmers Market',
-            languages: 'Node',
+            name: 'Run Buddy',
+            languages: 'HTML CSS',
+            appLink: '',
+            repoLink: ''
         },
         {
-            name: '2Run Buddy',
+            name: 'Weather Dashboard',
             languages: 'HTML CSS',
         },
         {
-            name: '2Tempo Run',
-            languages: 'HTML CSS',
+            name: 'Note Taker',
+            languages: 'Node',
         },
         {
-            name: '2Farmers Market',
-            languages: 'Node',
+            name: 'Tech Blog',
+            languages: 'HTML CSS',
         }
     ];
-    let projectImages = projects.map((project) => 
-    <img src={require(`../assets/images/${project.name}.png`)} alt={project.name}/>
+    let projectImages = projects.map((project) =>
+        <img src={require(`../assets/images/${project.name}.png`)} alt={project.name} />
     )
     return (
-        <div>
-            {projectImages}
+        <div className='row'>
+            {projects.map((project) =>
+                <section className='project col-md-6' >
 
-            {/* {projects.map((project) =>
-                <img
-                    src={require(`../assets/images/${project.name}.png`)}
-                    alt={project.name}
-                    className="img-thumbnail mx-1"
-                key={project.name}
-                />
-            )} */}
+                    <img
+                        src={require(`../assets/images/${project.name}.png`)}
+                        alt={project.name}
+                        key={project.name}
+                        className='col-12'
+                    />
+                </section>
+
+
+
+            )}
+
         </div>
     )
 };

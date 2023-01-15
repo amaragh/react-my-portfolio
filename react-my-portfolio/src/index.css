@@ -17,15 +17,6 @@ li {
   list-style: none;
 }
 
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-.flex-end {
-  justify-content: flex-end;
+.project {
+  padding: 10px;
 }
