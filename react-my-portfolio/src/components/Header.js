@@ -32,7 +32,7 @@ function Header() {
             <div className='row justify-content-between'>
                 <div className='col-md-3'>
                     <h2>
-                        <a href="/">Amaragh</a>
+                        <a href="/">ALECIA MARAGH</a>
                     </h2>
                 </div>
                 <div className='col-md-9' >
