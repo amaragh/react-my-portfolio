@@ -30,9 +30,7 @@ function Project() {
             languages: 'HTML CSS',
         }
     ];
-    let projectImages = projects.map((project) =>
-        <img src={require(`../assets/images/${project.name}.png`)} alt={project.name} />
-    )
+
     return (
         <div className='row justify-content-center'>
             {projects.map((project) =>

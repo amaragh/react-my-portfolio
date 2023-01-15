@@ -3,7 +3,9 @@ import React from 'react'
 function Resume() {
     return (
         <div>
-            <h1>Resume</h1>
+            <h1>Resume
+                <a href='#'>Download Resume</a>
+            </h1>
             <div>
                 <h2>Front-End Proficiencies</h2>
                 <ul>
