@@ -4,9 +4,9 @@ function About() {
     return (
         <div className='about row justify-content-center'>
             <div className='col-10'>
-                <div>
+                <div className=''>
                     <h1 className='col-10'>
-                        About Me
+                        About Me                    
                     </h1>
                     <img className='avatar' src={require('../../assets/images/avatar.png')} alt='Avatar' />
 
