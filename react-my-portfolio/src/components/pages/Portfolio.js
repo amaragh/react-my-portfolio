@@ -5,7 +5,10 @@ function Portfolio() {
 
     return (
         <div>
-            <h1>Portfolio</h1>
+            <h1>My Projects
+                <a href='#'>Download Resume</a>
+            </h1>
+           
             <section>
                 <Project/>
             </section>

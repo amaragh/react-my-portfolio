@@ -29,19 +29,19 @@ function Header() {
 
     return (
         <div className='container'>
-            <div className='row justify-content-between'>
+            <header className='row justify-content-between'>
                 <div className='col-md-3'>
                     <h2>
                         <a href="/">ALECIA MARAGH</a>
                     </h2>
                 </div>
-                <div className='col-md-9' >
+                <nav className='col-md-9' >
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-                </div>
-            </div>
-            <div className='row'>
+                </nav>
+            </header>
+            <main className='row'>
                 {renderPage()}
-            </div>
+            </main>
         </div>
     )
 }

@@ -34,9 +34,9 @@ function Project() {
         <img src={require(`../assets/images/${project.name}.png`)} alt={project.name} />
     )
     return (
-        <div className='row'>
+        <div className='row justify-content-center'>
             {projects.map((project) =>
-                <section className='project col-md-6' >
+                <section className='project col-md-10 col-lg-6' >
 
                     <img
                         src={require(`../assets/images/${project.name}.png`)}
