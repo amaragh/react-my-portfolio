@@ -42,6 +42,11 @@ li {
   list-style: none;
 }
 
+.nav-link{
+  text-decoration: none;
+}
+
+/* ABOUT ME SECTION START */
 .avatar {
   height: 40px;
 }
@@ -49,7 +54,16 @@ li {
 .first-paragraph {
   margin-top: 10px;
 }
+/* ABOUT ME SECTION END */
 
+
+/* PROJECTS SECTION START */
 .project {
   padding: 10px;
 }
+
+.project h4 {
+  padding-top: 5px;
+}
+
+/* PROJECTS SECTION END */

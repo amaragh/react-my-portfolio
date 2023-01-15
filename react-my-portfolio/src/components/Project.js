@@ -45,7 +45,7 @@ function Project() {
                         key={project.name}
                         className='col-12'
                     />
-                    <h3>{project.name}</h3>
+                    <h4>{project.name}</h4>
                     <p>This is a description of the {project.name} project. Click <a href={project.repoLink} target="_blank" rel="noreferrer">here</a> to see Github repo.</p>
                 </section>
             )}
