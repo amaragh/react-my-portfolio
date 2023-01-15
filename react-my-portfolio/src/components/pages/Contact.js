@@ -35,30 +35,31 @@ function Contact() {
         console.log(formState);
     }
     return (
-        <section>
-            <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-                </div>
+        <div className='row justify-content-center'>
+            <section className='card col-xs-9 col-md-5'>
+                <div className='card-body'>
+                    <h1>Send me a message</h1>
+                    <form id="contact-form" onSubmit={handleSubmit}>
+                        <div className=' mb-2'>
+                            <input className='form-input' type="text" defaultValue={name} placeholder='Name' onBlur={handleChange} name="name" />
+                        </div>
+                        <div className=' mb-2'>
+                            <input className='form-input' type="email" defaultValue={email} placeholder='Email' onBlur={handleChange} name="email" />
+                        </div>
+                        <div className=' mb-2'>
+                            <textarea className='form-input' name="message" defaultValue={message} placeholder='Message' onBlur={handleChange} rows="5" />
+                        </div>
 
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                <button data-testid="button" type="submit">Submit</button>
-            </form>
-        </section >
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text">{errorMessage}</p>
+                            </div>
+                        )}
+                        <button data-testid="button" type="submit">Submit</button>
+                    </form>
+                </div>
+            </section >
+        </div>
 
     )
 }
