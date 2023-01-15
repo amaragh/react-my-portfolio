@@ -29,13 +29,13 @@ function Header() {
 
     return (
         <div className='container'>
-            <header className='row justify-content-between'>
-                <div className='col-md-3'>
+            <header className='row justify-content-md-between text-center'>
+                <div className='col-sm-12 col-md-auto'>
                     <h2>
                         <a href="/">ALECIA MARAGH</a>
                     </h2>
                 </div>
-                <nav className='col-md-9' >
+                <nav className='col-sm-12 col-md-auto' >
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 </nav>
             </header>

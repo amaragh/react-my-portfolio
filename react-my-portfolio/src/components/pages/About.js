@@ -4,7 +4,7 @@ function About() {
     return (
         <div className='about row justify-content-center'>
             <div className='col-10'>
-                <div className=''>
+                <div>
                     <h1 className='col-10'>
                         About Me                    
                     </h1>
