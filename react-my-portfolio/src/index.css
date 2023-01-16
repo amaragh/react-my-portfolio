@@ -88,6 +88,7 @@ main {
 /* CONTACT SECTION START */
 .card-body h1 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .form-input {
@@ -117,6 +118,16 @@ main {
 }
 /* CONTACT SECTION END */
 
+/* RESUME SECTION START */
+.resume-header {
+  margin-bottom: 25px;
+}
+
+.resume-header a {
+  text-decoration: none;
+  font-style: italic;
+}
+/* RESUME SECTION END */
 
 /* FOOTER SECTION START */
 .copyright {
@@ -124,4 +135,5 @@ main {
   font-family: monospace, 'Courier New', Courier;
   padding-top: 30px;
 }
+
 /* FOOTER SECTION END */
