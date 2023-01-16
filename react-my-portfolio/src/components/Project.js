@@ -38,7 +38,7 @@ function Project() {
     return (
         <div className='row justify-content-center'>
             {projects.map((project) =>
-                <section className='project col-md-4 col-lg-6 text-center' >
+                <section className='project col-md-10 col-lg-6 text-center' >
                     <h4>{project.name}</h4>
                     <p>This is a description of the {project.name} project. Click <a href={project.repoLink} target="_blank" rel="noreferrer">here</a> to see Github repo.</p>
                     <img
