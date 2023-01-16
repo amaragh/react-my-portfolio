@@ -26,6 +26,7 @@ code {
     monospace;
 }
 
+/* HEADER AND MAIN START */
 header {
   padding: 20px;
   background: var(--darker);
@@ -45,6 +46,12 @@ li {
 .nav-link{
   text-decoration: none;
 }
+
+main {
+  margin-bottom: 100px;
+}
+
+/* HEADER AND MAIN END */
 
 /* ABOUT ME SECTION START */
 .avatar {
@@ -105,3 +112,13 @@ li {
   color: red;
 }
 /* CONTACT SECTION END */
+
+
+/* FOOTER SECTION START */
+.copyright {
+  color:var(--light);
+  font-family: 'Courier New', Courier, monospace ;
+  padding-top: 30px;
+}
+/* FOOTER SECTION END */
+
