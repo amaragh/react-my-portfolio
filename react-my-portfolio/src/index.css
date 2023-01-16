@@ -65,7 +65,6 @@ li {
 .project h4 {
   padding-top: 5px;
 }
-
 /* PROJECTS SECTION END */
 
 /* CONTACT SECTION START */
@@ -80,7 +79,19 @@ li {
   background-color: rgba(255,255,255, 0.75);
 }
 
-
+#contact-form button {
+  width: 100%;
+  border: none;
+  background: var(--lightest);
+  color: var(--darker);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.error-text {
+  color: red;
+}
 
 
 /* CONTACT SECTION END */
