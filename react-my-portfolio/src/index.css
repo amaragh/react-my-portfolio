@@ -52,14 +52,22 @@ li {
 }
 
 .first-paragraph {
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.paragraph {
+  font-size: 20px;
 }
 /* ABOUT ME SECTION END */
 
 
 /* PROJECTS SECTION START */
+.all-projects {
+  margin-top: 30px;
+}
 .project {
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .project h4 {
@@ -68,6 +76,10 @@ li {
 /* PROJECTS SECTION END */
 
 /* CONTACT SECTION START */
+.card-body h1{
+  font-size: 30px;
+}
+
 .form-input {
   border: 1px solid var(--darker);
   display: block;
@@ -92,6 +104,4 @@ li {
 .error-text {
   color: red;
 }
-
-
 /* CONTACT SECTION END */
