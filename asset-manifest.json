@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/react-my-portfolio/static/css/main.cc7d34ae.css",
-    "main.js": "/react-my-portfolio/static/js/main.95b3478e.js",
+    "main.js": "/react-my-portfolio/static/js/main.9dd47a68.js",
     "static/js/787.be613c5b.chunk.js": "/react-my-portfolio/static/js/787.be613c5b.chunk.js",
     "static/media/Tempo Run.png": "/react-my-portfolio/static/media/Tempo Run.bf68b191fb2ec18a2aef.png",
     "static/media/Farmers Market.png": "/react-my-portfolio/static/media/Farmers Market.f66870ab5ca44bb3b2a3.png",
     "static/media/Run Buddy.png": "/react-my-portfolio/static/media/Run Buddy.1fa2d4bb6fc5d52cb1e0.png",
+    "static/media/Brick Street.png": "/react-my-portfolio/static/media/Brick Street.1609b7fafba734681d1e.png",
     "static/media/Tempo Run2.png": "/react-my-portfolio/static/media/Tempo Run2.8e1078d4c92e96d4ffef.png",
     "static/media/Weather Dashboard.png": "/react-my-portfolio/static/media/Weather Dashboard.89bdf26a4f28a3f59d2d.png",
     "static/media/Team Profile Generator.png": "/react-my-portfolio/static/media/Team Profile Generator.bd93a910a2ab16e0f8b1.png",
@@ -13,11 +14,11 @@
     "static/media/Tech Blog.png": "/react-my-portfolio/static/media/Tech Blog.a2ceaeb0d2b7305678a7.png",
     "index.html": "/react-my-portfolio/index.html",
     "main.cc7d34ae.css.map": "/react-my-portfolio/static/css/main.cc7d34ae.css.map",
-    "main.95b3478e.js.map": "/react-my-portfolio/static/js/main.95b3478e.js.map",
+    "main.9dd47a68.js.map": "/react-my-portfolio/static/js/main.9dd47a68.js.map",
     "787.be613c5b.chunk.js.map": "/react-my-portfolio/static/js/787.be613c5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc7d34ae.css",
-    "static/js/main.95b3478e.js"
+    "static/js/main.9dd47a68.js"
   ]
 }
